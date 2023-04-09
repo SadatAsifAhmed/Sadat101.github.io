@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-image: url("5073414.jpg");
+            background-position: top;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0;
+            font-family: "Lato", sans-serif;
+        }
+
+        .sidebar {
+            padding: 0;
+            width: 15%;
+            background-color: transparent;
+            position: fixed;
+            height: 100%;
+            overflow: auto;
+        }
+
+        .sidebar a {
+            font-size: 10px;
+            font-family: cursive;
+            display: block;
+            color: white;
+            padding: 16px;
+            text-decoration: none;
+        }
+
+        .sidebar a.active {
+            color: bisque;
+        }
+
+        .sidebar a:hover:not(.active) {
+            color: bisque;
+            font-size: 40px;
+        }
+
+        div.content {
+            margin-left: 200px;
+            padding: 1px 16px;
+        }
+
+        @media screen and (max-width: 700px) {
+            .sidebar {
+                width: 100%;
+                height: auto;
+                position: relative;
+            }
+
+            .sidebar a {
+                float: left;
+            }
+
+            div.content {
+                margin-left: 0;
+            }
+        }
+
+        @media screen and (max-width: 400px) {
+            .sidebar a {
+                text-align: center;
+                float: none;
+            }
+        }
+
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .bg-text {
+            color: antiquewhite;
+            font-weight: bold;
+            position: absolute;
+            top: 45%;
+            left: 40%;
+            transform: translate(-50%, -50%);
+            z-index: 5;
+            width: 50%;
+            padding: 20px;
+            text-align: center;
+        }
+
+
+        h1 {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 50px;
+            padding: 10%;
+        }
+
+        p {
+            font-size: 30px;
+            font-family: 'Times New Roman', Times, serif;
+            padding: 10%;
+            margin-left: 20%;
+
+        }
+
+        article {
+            font-size: 30px;
+            font-family: 'Times New Roman', Times, serif;
+            margin-left: 20%;
+        }
+
+
+        .avatar {
+            vertical-align: middle;
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+
+    <div class="sidebar">
+        <a href="Portfolio Project Home Page.html"
+            style="font-size: 50px; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; padding-bottom: 170px; margin-top:20px">Portfolio</a>
+        <a href="Portfolio Project Education Page.html">Education</a>
+        <a href="Portfolio Project Skills Page.html">Skills</a>
+        <a href="Portfolio Project Resume Download Page.html">Resume</a>
+        <a href="Portfolio Project Contacts Page.html">Contact</a>
+    </div>
+
+
+    <div class="bg-text">
+        <p> <img src="tools.png" alt="Avatar" class="avatar"> I am skilled in Video Editing and I can work in Microsoft
+            Excel, Microsoft Office.
+        </p>
+        <article> <img src="saw.png" alt="Avatar" class="avatar"> I am an amateur frontend web
+            developer, I am currently on the process of learning how to work on the backend and also sharpening my
+            skills on the side. I am currently learning how to work with React and Bootstrap.</article>
+
+    </div>
+
+    <footer> </footer>
+
+
+
+
+</body>
+
+</html>
